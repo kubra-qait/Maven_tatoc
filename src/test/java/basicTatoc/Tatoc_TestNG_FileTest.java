@@ -50,7 +50,6 @@ public class Tatoc_TestNG_FileTest {
 				driver.switchTo().parentFrame();
 				driver.findElement(By.xpath("//a[text() = 'Repaint Box 2']")).click();
 			}
-			
 		}
 		driver.switchTo().parentFrame();
 		driver.findElement(By.xpath("//a[text() = 'Proceed']")).click();
