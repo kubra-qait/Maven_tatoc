@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 1, Errors: 0, Skipped: 13, Time elapsed: 18.277 s <<< FAILURE! - in TestSuite
+launchTatoc(basicTatoc.Tatoc_TestNG_File2Test)  Time elapsed: 17.358 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DLLA28P3273', ip: '192.168.0.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\KUBRAA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62002}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d8dac0010390ca41440ca8718c920a8d
+	at basicTatoc.Tatoc_TestNG_File2Test.launchTatoc(Tatoc_TestNG_File2Test.java:27)
+
